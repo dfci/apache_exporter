@@ -1,4 +1,4 @@
-FROM quay.io/prometheus/busybox:latest
+FROM ubuntu:18.04
 
 COPY apache_exporter /bin/apache_exporter
 
